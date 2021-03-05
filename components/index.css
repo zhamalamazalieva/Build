@@ -1,0 +1,20 @@
+@import url(./header.css);
+@import url(./base.css);
+@import url(./projects.css);
+@import url(./redline.css);
+@import url(./jobs.css);
+@import url(./partners.css);
+@import url(./answers.css);
+@import url(./reviews.css);
+@import url(./contacts.css);
+@import url(./footer.css);
+@import url(./media.css);
+.is-none{
+    opacity: 0;
+    height: 0px;
+}
+.space-btwn{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}

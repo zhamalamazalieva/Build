@@ -1,0 +1,13 @@
+.partners__title{
+    font-size: 43px;
+    text-align: center;
+    color: white;
+}
+.partners{
+    background: #404149;
+    padding: 100px 0 100px 0;
+    font-family: 'Oswald', sans-serif;
+}
+.partners__img{
+    justify-content: space-between;
+}

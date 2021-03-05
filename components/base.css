@@ -1,0 +1,34 @@
+.container{
+    max-width: 1110px;
+    margin: auto;
+}
+a{
+    text-decoration: none;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+p{
+    margin: 0;
+}
+.w-100{
+    width: 100%;
+}
+.year{
+    color: black;
+    font-size: 36px;
+}
+.flex{
+    display: flex;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.space-btwn{
+    justify-content: space-between;
+}
+.align-center{
+    align-items: center;
+}

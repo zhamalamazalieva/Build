@@ -1,0 +1,9 @@
+@media screen and (max-width: 320px){
+    .bigwords{
+        font-size: 54px;
+    }
+    .jobs__box,
+    .box__content{
+        width: 100%;
+    }
+}

@@ -1,0 +1,29 @@
+.answers{
+    margin-top: 150px;
+    height: 600px;
+}
+.answers__title{
+    font-family: 'Oswald',sans-serif;
+    font-size: 36px;
+    text-align: center;
+}
+.answers__dropdown{
+    max-width: 730px;
+    text-align: left;
+}
+.drop{
+    cursor: pointer;
+    transition: 0.3s;
+}
+.up{
+    font-family: 'Oswald',sans-serif;
+    color: #F7654A;
+    font-size: 24px;
+    transition: 0.4s;
+}
+.down{
+    font-family: 'Open Sans',sans-serif;
+    color: #999999;
+    font-size: 16px;
+    transition: 0.3s;
+}

@@ -1,0 +1,23 @@
+.redline{
+    color: white;
+    background: #F7654A;
+    margin-top: 150px;
+    font-family: 'Oswald', sans-serif;
+}
+.redline__title{
+    font-size: 48px;
+}
+.redline__discription{
+    font-size: 24px;
+}
+.request-btn{
+    border: 0;
+    outline: none;
+    height: 49px;
+    width: 175px;
+    font-family: 'Oswald', sans-serif;
+}
+.request__img{
+    padding: 14px 15px 15px 0;
+    vertical-align: middle;
+}

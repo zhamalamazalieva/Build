@@ -1,0 +1,13 @@
+.footer{
+    background: #404149;
+    color: white;
+    height: 82px;
+    padding-top: 30px;
+    box-sizing: border-box;
+    font-family: 'Open Sans';
+}
+.words{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
