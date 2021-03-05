@@ -1,0 +1,23 @@
+.numbers {
+  font-family: "Oswald", sans-serif;
+  background: #f7f7f7;
+  justify-content: space-evenly;
+  padding: 57px 130px 57px 130px;
+  box-sizing: border-box;
+  margin-top: -100px;
+  &__box {
+    text-align: center;
+    color: #999999;
+    width: 190px;
+  }
+  &__red {
+    color: red;
+    font-size: 72px;
+    font-weight: bold;
+  }
+  &__year{
+      color: black;
+      font-size: 36px;
+  
+  }
+}

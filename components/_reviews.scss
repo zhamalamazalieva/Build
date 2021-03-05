@@ -1,23 +1,23 @@
 .reviews{
     padding-top: 100px;
-}
-.reviews__title{
+
+    &__title{
     font-size: 43px;
     text-align: center;
     font-family: 'Oswald',sans-serif;
 }
-.reviews__sector{
+    &__sector{
     justify-content: space-between;
 }
-.reviews__box{
+    &__box{
     font-family: 'Open Sans',sans-serif;
 }
-.review__author{
+    &_author{
     font-family: 'Oswald',sans-serif;
     padding-top: 30px;
     font-size: 21px;
-}
-.box__content{
+    }
+    .box__content{
     position: relative;
     padding: 79px 30px 38px 30px;
     font-size: 14px;
@@ -26,8 +26,8 @@
     background: #f7f7f7;
     color: #999999;
     box-sizing: border-box;
-}
-.box__content::before{
+    }
+    .box__content::before{
     content: "“";
     font-family: 'Oswald';
     position: absolute;
@@ -35,8 +35,8 @@
     color: #F7654A;
     top: 0px;
     left: 0;
-}
-.red-fonts{
+    }
+    .red-fonts{
     color: #F7654A;
     font-size: 21px;
-}
+}}

@@ -1,0 +1,22 @@
+@import "./components/base";
+@import "./components/header";
+@import "./components/hero";
+@import "./components/statistic";
+@import "./components/projects";
+@import "./components/redline";
+@import "./components/jobs";
+@import "./components/partners";
+@import "./components/answers";
+@import "./components/reviews";
+@import "./components/contacts";
+@import "./components/footer";
+@import "./components/media";
+.is-none{
+    opacity: 0;
+    height: 0px;
+}
+.space-btwn{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
