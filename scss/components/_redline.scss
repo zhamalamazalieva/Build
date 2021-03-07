@@ -3,19 +3,14 @@
     background: #F7654A;
     margin-top: 150px;
     font-family: 'Oswald', sans-serif;
+    padding: 35px 0;
     &__title{
     font-size: 48px;
     }
     &__discription{
     font-size: 24px;
     }
-    &__btn{
-    border: 0;
-    outline: none;
-    height: 49px;
-    width: 175px;
-    font-family: 'Oswald', sans-serif;
-    }
+  
     &__img{
     padding: 14px 15px 15px 0;
     vertical-align: middle;

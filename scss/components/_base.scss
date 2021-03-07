@@ -10,8 +10,9 @@ body{
     padding: 0;
     box-sizing: border-box;
 }
-p{
+p, h1, h2, h3, span, div{
     margin: 0;
+    padding: 0;
 }
 .w-100{
     width: 100%;
@@ -53,4 +54,18 @@ img{
   }
   .col-12 {
     width: 100%;
+  }
+  .form{
+    &__input{
+    padding: 11px;
+    font-size: 18px;
+    outline: none;
+    border: none;
+    }
+    &__button{
+      border: 0;
+      outline: none;
+      padding: 0 7px;
+      font-family: 'Oswald', sans-serif;
+      }
   }
