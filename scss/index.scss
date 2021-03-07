@@ -11,12 +11,16 @@
 @import "./components/contacts";
 @import "./components/footer";
 @import "./components/media";
-.is-none{
-    opacity: 0;
-    height: 0px;
+@import "./components/slider";
+@import "./media/projects";
+@import "./media/base";
+
+.is-none {
+  opacity: 0;
+  height: 0px;
 }
-.space-btwn{
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
+.space-btwn {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
 }

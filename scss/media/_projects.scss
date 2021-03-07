@@ -1,0 +1,11 @@
+
+
+.projects {
+    @media screen and(max-width:1200px) {
+        padding: 0 25px;
+        &__row {
+          flex-direction: column;
+        }
+    }
+  }
+  
