@@ -15,7 +15,12 @@ body {
           box-sizing: border-box;
 }
 
-p, h1, h2, h3, span, div {
+p,
+h1,
+h2,
+h3,
+span,
+div {
   margin: 0;
   padding: 0;
 }
@@ -93,7 +98,23 @@ img {
   border: 0;
   outline: none;
   padding: 0 7px;
-  font-family: 'Oswald', sans-serif;
+  font-family: "Oswald", sans-serif;
+  padding: 11px 15px;
+}
+
+.is-none {
+  opacity: 0;
+  height: 0px;
+}
+
+.space-btwn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 .header {
@@ -115,6 +136,9 @@ img {
 
 .hero {
   background: url(../img/head-bg.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
   color: white;
   background-repeat: no-repeat;
   min-height: 100vh;
@@ -125,7 +149,7 @@ img {
 }
 
 .hero__title, .hero__subtitle {
-  font-family: 'Oswald', sans-serif;
+  font-family: "Oswald", sans-serif;
   text-align: center;
   max-width: 730px;
   margin: 0 auto 40px;
@@ -172,7 +196,7 @@ img {
 }
 
 .projects {
-  font-family: 'Oswald', sans-serif;
+  font-family: "Oswald", sans-serif;
   color: #404149;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
@@ -215,25 +239,25 @@ img {
 }
 
 .projects__button--prev {
-  background-color: #F7654A;
+  background-color: #f7654a;
   padding: 7px 15px;
   outline: none;
   border: none;
   -webkit-box-shadow: 0 0 5px 1px #9b9696;
           box-shadow: 0 0 5px 1px #9b9696;
-  font-family: 'Oswald', sans-serif;
+  font-family: "Oswald", sans-serif;
   font-size: 16px;
   margin: 0 15px;
 }
 
 .projects__button--next {
-  background-color: #F7654A;
+  background-color: #f7654a;
   padding: 7px 15px;
   outline: none;
   border: none;
   -webkit-box-shadow: 0 0 5px 1px #9b9696;
           box-shadow: 0 0 5px 1px #9b9696;
-  font-family: 'Oswald', sans-serif;
+  font-family: "Oswald", sans-serif;
   font-size: 16px;
   margin: 0 15px;
 }
@@ -241,6 +265,7 @@ img {
 .projects__title {
   font-size: 43px;
   text-align: center;
+  margin-bottom: 25px;
 }
 
 .projects__name {
@@ -254,7 +279,7 @@ img {
   position: absolute;
   height: 6px;
   width: 55px;
-  background: #F7654A;
+  background: #f7654a;
   top: -20px;
   left: 0;
 }
@@ -281,12 +306,11 @@ img {
 }
 
 .redline__img {
-  padding: 14px 15px 15px 0;
   vertical-align: middle;
 }
 
 .jobs {
-  font-family: 'Oswald', sans-serif;
+  font-family: "Oswald", sans-serif;
   margin-top: 150px;
 }
 
@@ -437,48 +461,17 @@ img {
   font-size: 21px;
 }
 
-.contacts {
+.footer {
+  background-color: #404149;
+  color: white;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Open Sans";
   text-align: center;
   padding-top: 100px;
 }
 
-.contacts__title {
-  font-size: 43px;
-  font-family: 'Oswald',sans-serif;
-}
-
-.contacts__sector {
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-}
-
-.contacts__box {
-  width: 255px;
-  font-family: 'Oswald',sans-serif;
-  height: 241px;
-  font-size: 24px;
-  font-weight: 500;
-}
-
-.contacts__content {
-  color: #999999;
-}
-
-.mail-span {
-  color: #F7654A;
-}
-
-.footer {
-  background: #404149;
-  color: white;
-  height: 82px;
-  padding-top: 30px;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  font-family: 'Open Sans';
-}
-
-.words {
+.footer__bottom {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -486,22 +479,38 @@ img {
       -ms-flex-pack: justify;
           justify-content: space-between;
   width: 100%;
+  padding: 30px 0;
 }
 
-@media screen and (max-width: 320px) {
-  .bigwords {
-    font-size: 54px;
-  }
-  .jobs__box,
-  .box__content {
-    width: 100%;
-  }
+.footer__title {
+  font-size: 43px;
+  font-family: "Oswald", sans-serif;
+  margin-bottom: 25px;
 }
 
-.slider__wrapper {
-  overflow: hidden;
-  width: 100%;
-  height: 100%;
+.footer__sector {
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.footer__box {
+  width: 255px;
+  font-family: "Oswald", sans-serif;
+  height: 241px;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.footer__content {
+  color: #999999;
+}
+
+.footer img {
+  height: 26px;
+}
+
+.footer .mail-span {
+  color: #f7654a;
 }
 
 @media screen and (max-width: 1200px) {
@@ -520,19 +529,4 @@ img {
   .col-4 {
     width: 100%;
   }
-}
-
-.is-none {
-  opacity: 0;
-  height: 0px;
-}
-
-.space-btwn {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
 }

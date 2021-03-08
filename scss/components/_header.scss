@@ -1,12 +1,11 @@
-.header{
-    position: absolute;
-    top: 5%;
-    left: 0;
-    z-index: 1;
-    width: 100%;
-    &__icons{
+.header {
+  position: absolute;
+  top: 5%;
+  left: 0;
+  z-index: 1;
+  width: 100%;
+  &__icons {
     display: flex;
     justify-content: space-between;
-    }
-
+  }
 }

@@ -1,6 +1,6 @@
 $(document).ready(function(){
     let position = 0;
-    const slidesToShow = 3;
+    const slidesToShow = 2;
     const slidesToScroll = 1;
 
 
@@ -42,10 +42,10 @@ $(document).ready(function(){
                 transform:`translateX(${position}px)`
             });
         };
-        // const checkBtns = () => {
-        //     btnPrev.prop('disabled', position === 0);
-        //     btnNext.prop('disabled', position <= -(itemsCount - slidesToShow) * itemWidth );
-        // };
+        const checkBtns = () => {
+            btnPrev.prop('disabled', position === 0);
+            btnNext.prop('disabled', position <= -(itemsCount + slidesToShow)*itemWidth);
+        };
         // checkBtns();
 });
 
