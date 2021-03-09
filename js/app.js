@@ -1,7 +1,10 @@
 const dropUp = document.querySelectorAll('.drop__up');
 const dropDown = document.querySelectorAll('.drop__down');
 
-dropUp.forEach(function (item) {
+dropUp.forEach(onDropUpClick);
+
+
+function onDropUpClick(item){
     item.addEventListener('click', function(){
         let currentDropUp =  item;
         let dropId = currentDropUp.getAttribute('data-drop');
@@ -19,4 +22,8 @@ dropUp.forEach(function (item) {
 
         ;}
     })
-})
+}
+
+
+//По умолчанию первый заголовок дропдауна активный, вы не написали класс актив в HTML 
+document.querySelector('drop__up--active').click();
