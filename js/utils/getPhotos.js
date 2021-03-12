@@ -1,4 +1,5 @@
-const API = "https://jsonplaceholder.typicode.com/photos";
+export function getRequest(){
+    const API = "https://jsonplaceholder.typicode.com/photos";
 
 async function getResponse(){
 
@@ -26,3 +27,4 @@ async function getResponse(){
       `}
 };
 getResponse();
+}

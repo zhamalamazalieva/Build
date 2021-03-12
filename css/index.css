@@ -134,6 +134,58 @@ img {
           justify-content: space-between;
 }
 
+.header__menu-wrapper {
+  width: 50px;
+  height: 50px;
+  padding: 15px;
+  background-color: #f7654a;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.header__burger-menu {
+  position: relative;
+}
+
+.header__burger-menu span {
+  background-color: white;
+  width: 28px;
+  height: 2px;
+  border-radius: 3px;
+  display: block;
+}
+
+.header__burger-menu::before, .header__burger-menu::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  background-color: white;
+  width: 28px;
+  height: 2px;
+}
+
+.header__burger-menu::before {
+  top: 7px;
+}
+
+.header__burger-menu::after {
+  bottom: 7px;
+}
+
+.header__burger-menu::before.active {
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+
 .hero {
   background: url(../img/head-bg.png);
   background-position: center;

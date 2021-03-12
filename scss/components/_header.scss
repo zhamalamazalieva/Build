@@ -8,4 +8,44 @@
     display: flex;
     justify-content: space-between;
   }
+  &__menu-wrapper {
+    width: 50px;
+    height: 50px;
+    padding: 15px;
+    background-color: #f7654a;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  &__burger-menu {
+    position: relative;
+    span {
+      background-color: white;
+      width: 28px;
+      height: 2px;
+      border-radius: 3px;
+      display: block;
+    }
+    &::before,
+    &::after {
+      content: "";
+      position: absolute;
+      left: 0;
+
+      background-color: white;
+      width: 28px;
+      height: 2px;
+    }
+    &::before {
+      top: 7px;
+    }
+    &::after {
+      bottom: 7px;
+    }
+    &::before.active{
+      transform: rotate(45deg);
+    }
+  }
 }

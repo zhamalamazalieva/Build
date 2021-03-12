@@ -1,4 +1,5 @@
-
+export function postRequest(){
+  
   let form =  document.getElementById('form1');
 
   form.addEventListener('submit', (e)=>{
@@ -22,3 +23,5 @@
   
   });
 
+
+}
